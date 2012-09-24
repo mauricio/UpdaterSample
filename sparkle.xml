@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+	<title>Updater sample</title>
+	<description>Most recent changes with links to updates.</description>
+	<language>en</language>            
+	<item>
+	    <title>Version 0.0.2</title>
+			<description>
+				This is a newer version!
+			</description>
+	    <pubDate>Wed, 19 Set 2012 09:41:00 +0000</pubDate>
+	    <enclosure 
+	    	url="https://none.com/none" 
+	    	sparkle:version="0.2.0" 
+	    	type="application/octet-stream"  />
+	</item>
+	<item>
+	    <title>Version 0.0.1</title>
+			<description>
+				This is the older version.
+			</description>
+	    <pubDate>Wed, 15 Set 2012 09:41:00 +0000</pubDate>
+	    <enclosure 
+				url="https://none.com/none" 
+	    	sparkle:version="0.1.0" 
+	    	type="application/octet-stream"  />
+	 </item>         
+</channel>
