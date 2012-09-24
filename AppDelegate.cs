@@ -1,8 +1,6 @@
-using System;
-using System.Drawing;
 using MonoMac.Foundation;
 using MonoMac.AppKit;
-using MonoMac.ObjCRuntime;
+using MonoMac.Sparkle;
 
 namespace UpdaterSample
 {
@@ -18,7 +16,11 @@ namespace UpdaterSample
 		{
 			mainWindowController = new MainWindowController ();
 			mainWindowController.Window.MakeKeyAndOrderFront (this);
+
+			var updater = SUUpdater.SharedUpdater;
+			updater.AutomaticallyDownloadsUpdates = true;
+			updater.CheckForUpdatesInBackground();
+
 		}
 	}
 }
-

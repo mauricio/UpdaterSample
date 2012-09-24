@@ -7,9 +7,9 @@
 	<key>CFBundleName</key>
 	<string>UpdaterSample</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.0.1</string>
+	<string>0.0.2</string>
 	<key>CFBundleVersion</key>
-	<string>0.0.1</string>
+	<string>0.0.2</string>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.business</string>
 	<key>LSMinimumSystemVersion</key>
@@ -18,5 +18,7 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+	<key>SUFeedURL</key>
+	<string>https://raw.github.com/mauricio/UpdaterSample/master/sparkle.xml</string>
 </dict>
 </plist>
