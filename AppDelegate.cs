@@ -19,7 +19,7 @@ namespace UpdaterSample
 
 			var updater = SUUpdater.SharedUpdater;
 			updater.AutomaticallyDownloadsUpdates = true;
-			updater.CheckForUpdatesInBackground();
+			updater.CheckForUpdates();
 
 		}
 	}
