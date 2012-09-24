@@ -4,6 +4,7 @@
 	<title>Updater sample</title>
 	<description>Most recent changes with links to updates.</description>
 	<language>en</language>            
+	<link>https://github.com/mauricio/UpdaterSample/blob/master/sparkle.xml</link>
 	<item>
 	    <title>Version 0.0.2</title>
 			<description>
